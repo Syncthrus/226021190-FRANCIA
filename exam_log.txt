@@ -1,0 +1,42 @@
+    1  mkdir linux_practice
+    2  cd linux_practice
+    3  touch notes.txt
+    4  ls >> notes.txt
+    5  cat notes.txt
+    6  echo "Hello, Linux!" > notes.txt
+    7  echo "This is a practical exam." >> notes.txt
+    8  head -n 1 notes.txt
+    9  tail -n 1 notes.txt
+   10  mkdir subdir
+   11  mv notes.txt subdir/
+   12  cp practice_subdir/notes.txt ./
+   13  ls practice_subdir/
+   14  ls
+   15  mv notes.txt practice_subdir/
+   16  pwd
+   17  ls
+   18  find . -name "notes.txt"
+   19  touch notes.txt
+   20  mv notes.txt practice_subdir/
+   21  ls -l
+   22  rm practice_subdir
+   23  mkdir practice_subdir
+   24  rm -rf practice_subdir
+   25  mkdir practice_subdir
+   26  mv notes.txt practice_subdir/
+   27  cp practice_subdir/notes.txt ./
+   28  date
+   29  uptime
+   30  du -sh ~/
+   31  ssh -V
+   32  php -v
+   33  mysql --version
+   34  apache2 -v
+   35  python --version
+   36  java -version
+   37  git checkout -b finalexam
+   38  git clone https://github.com/Syncthrus/226021190-FRANCIA
+   39  git checkout -b finalexam
+   40  cd 226021190-FRANCIA
+   41  git checkout -b finalexam
+   42  history > exam_log.txt
